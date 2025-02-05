@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example of Table Tags</title>
+    <style>
+       table,th,tr,td{
+        border: 2px black solid;
+            border-collapse:collapse;
+            padding:25px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: x-large;
+            font-style: italic;
+        }
+        tr:nth-of-type(even){
+            background-color: yellow;
+        }
+           tr:nth-of-type(odd){
+            background-color: aqua;
+        }
+        th:nth-of-type(even){
+            background-color: blueviolet;
+        }
+        th:nth-of-type(odd){
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Example for Table</h1>
+    <table>
+        <tr>
+            <th>Employee Name</th>
+            <th>Employee ID</th>
+            <th>Designation</th>
+            <th>Salary</th>
+            <th>Mobile</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>Scott</td>
+            <td>EMP123</td>
+            <td>Developer</td>
+            <td>15000</td>
+            <td>123456789</td>
+            <td>Mumbai</td>
+        </tr>
+        <tr>
+            <td>Scoty</td>
+            <td>EMP456</td>
+            <td>Animator</td>
+            <td>16000</td>
+            <td>12345678</td>
+            <td>Banglore</td>
+        </tr>
+        <tr>
+            <td>F.Scot</td>
+            <td>EMP789</td>
+            <td>scientist</td>
+            <td>17000</td>
+            <td>987654321</td>
+            <td>Hyderabad</td>
+        </tr>
+        <tr>
+            <td>Finny</td>
+            <td>EMP888</td>
+            <td>programmer</td>
+            <td>18000</td>
+            <td>87465135</td>
+            <td>Pune</td>
+        </tr>
+        <tr>
+            <td>sinny</td>
+            <td>EMP777</td>
+            <td>data analyst</td>
+            <td>19000</td>
+            <td>874593150</td>
+            <td>Lucknow</td>
+        </tr>
+        <tr>
+            <td>vinny</td>
+            <td>EMP778</td>
+            <td>app developer</td>
+            <td>20000</td>
+            <td>857132514</td>
+            <td>Rajasthan</td>
+        </tr>
+    </table>
+</body>
+</html>
